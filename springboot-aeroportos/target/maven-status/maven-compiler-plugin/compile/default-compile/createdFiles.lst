@@ -1,0 +1,4 @@
+com\labpm\aeroportos\domain\Aeroporto.class
+com\labpm\aeroportos\repository\AeroportoRepository.class
+com\labpm\aeroportos\controller\AeroportoController.class
+com\labpm\aeroportos\Application.class
