@@ -2,6 +2,8 @@ package com.labpm.aeroportos.domain;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.Pattern;
 
 @Entity
 @Table(name = "airports")
@@ -17,13 +19,16 @@ public class Aeroporto {
   private String country;
 
   @Column(length = 3, unique = true)
+  @Pattern(regexp = "^[A-Z]{3}$")
   private String iata;
 
   @Column(length = 4)
+  @Pattern(regexp = "^[A-Z]{4}$")
   private String icao;
 
   private String latitude;
   private String longitude;
+  @Min(0)
   private Integer altitude;
   private String tz_offset;
   private String dst;

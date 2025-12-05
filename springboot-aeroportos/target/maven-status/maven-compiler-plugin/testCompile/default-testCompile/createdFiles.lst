@@ -1,4 +1,7 @@
 com\labpm\aeroportos\AeroportoFlowIT.class
+com\labpm\aeroportos\domain\AeroportoValidationTest.class
 com\labpm\aeroportos\ValidacaoTest.class
+com\labpm\aeroportos\domain\DomainUtilsTest.class
+com\labpm\aeroportos\service\AeroportoServiceTest.class
 com\labpm\aeroportos\AeroportosIT.class
 com\labpm\aeroportos\e2e\AeroportoIataFlowIT.class

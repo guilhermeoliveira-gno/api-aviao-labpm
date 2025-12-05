@@ -1,4 +1,7 @@
 C:\Users\User\Desktop\api-aviao\api-aviao-labpm\springboot-aeroportos\src\main\java\com\labpm\aeroportos\Application.java
 C:\Users\User\Desktop\api-aviao\api-aviao-labpm\springboot-aeroportos\src\main\java\com\labpm\aeroportos\controller\AeroportoController.java
 C:\Users\User\Desktop\api-aviao\api-aviao-labpm\springboot-aeroportos\src\main\java\com\labpm\aeroportos\domain\Aeroporto.java
+C:\Users\User\Desktop\api-aviao\api-aviao-labpm\springboot-aeroportos\src\main\java\com\labpm\aeroportos\domain\DomainUtils.java
 C:\Users\User\Desktop\api-aviao\api-aviao-labpm\springboot-aeroportos\src\main\java\com\labpm\aeroportos\repository\AeroportoRepository.java
+C:\Users\User\Desktop\api-aviao\api-aviao-labpm\springboot-aeroportos\src\main\java\com\labpm\aeroportos\service\AeroportoNaoEncontradoException.java
+C:\Users\User\Desktop\api-aviao\api-aviao-labpm\springboot-aeroportos\src\main\java\com\labpm\aeroportos\service\AeroportoService.java

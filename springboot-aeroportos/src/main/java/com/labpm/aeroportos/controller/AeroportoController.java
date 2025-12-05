@@ -41,7 +41,7 @@ public class AeroportoController {
   }
 
   @PutMapping("/{iata}")
-  public ResponseEntity<?> atualizarPorIata(@PathVariable("iata") String iata, @RequestBody Aeroporto body) {
+  public ResponseEntity<?> atualizarPorIata(@PathVariable("iata") String iata, @RequestBody @Valid Aeroporto body) {
     return repo.findByIata(iata).map(a -> {
       merge(a, body);
       repo.save(a);
@@ -50,7 +50,7 @@ public class AeroportoController {
   }
 
   @PutMapping("/id/{id}")
-  public ResponseEntity<?> atualizarPorId(@PathVariable("id") Long id, @RequestBody Aeroporto body) {
+  public ResponseEntity<?> atualizarPorId(@PathVariable("id") Long id, @RequestBody @Valid Aeroporto body) {
     return repo.findById(id).map(a -> {
       merge(a, body);
       repo.save(a);
