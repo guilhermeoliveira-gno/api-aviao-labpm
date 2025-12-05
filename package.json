@@ -1,0 +1,30 @@
+{
+  "name": "api-aviao-labpm",
+  "version": "1.0.0",
+  "description": "repositorio destinado a entrega do trabalho de laboratorio de programação modular",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilhermeoliveira-gno/api-aviao-labpm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guilhermeoliveira-gno/api-aviao-labpm/issues"
+  },
+  "homepage": "https://github.com/guilhermeoliveira-gno/api-aviao-labpm#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mysql2": "^3.15.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
