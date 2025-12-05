@@ -33,6 +33,9 @@ public class AeroportoController {
     if (body.getIata() == null || body.getIata().isBlank()) {
       return ResponseEntity.badRequest().body("Campo iata é obrigatório");
     }
+    if (body.getId() == null) {
+      body.setId(repo.nextId());
+    }
     Aeroporto salvo = repo.save(body);
     return ResponseEntity.created(URI.create("/api/v1/aeroportos/id/" + salvo.getId())).body(salvo);
   }

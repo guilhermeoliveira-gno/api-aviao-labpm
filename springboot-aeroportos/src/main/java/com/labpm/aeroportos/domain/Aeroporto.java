@@ -7,7 +7,6 @@ import jakarta.validation.constraints.NotBlank;
 @Table(name = "airports")
 public class Aeroporto {
   @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
 
   @NotBlank
